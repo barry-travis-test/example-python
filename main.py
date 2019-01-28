@@ -4,7 +4,9 @@ from rsa import cli
 from requests import sessions
 
 if __name__ == '__main__':
-    formats.get_format()
-    algorithms.HMACAlgorithm.prepare_key()
-    cli.VerifyOperation.perform_operation()
-    sessions.SessionRedirectMixin.resolve_redirects()
+#    formats.get_format()
+#    algorithms.HMACAlgorithm.prepare_key()
+#    cli.VerifyOperation.perform_operation()
+#    sessions.SessionRedirectMixin.resolve_redirects()
+    print 'Hello world'
+    
