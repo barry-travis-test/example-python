@@ -5,3 +5,4 @@ workflows:
   salus_scan:
     jobs:
       - salus/scan
+      
