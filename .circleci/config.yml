@@ -7,4 +7,4 @@ jobs:
      # start proprietary DB using private Docker image
      # with credentials stored in the UI
      - run: |
-         docker run --rm -t -v $(pwd) coinbase/salus
+         docker run --rm -t -v $(pwd):/home/repo coinbase/salus
